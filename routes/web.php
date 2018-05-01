@@ -14,6 +14,8 @@
 //            Menu
 Route::get('customers','PagesController@getCustomer');
 Route::get('work','PagesController@getWork');
+Route::get('work2','PagesController@getWork2');
+Route::get('work3','PagesController@getWork2');
 Route::get('homepage','PagesController@getHomepage');
 //test
 // Route::get('testPages','PagesController@getPasing');

@@ -23,6 +23,12 @@ class PagesController extends Controller
     public function getWork(){
       return view('menu.work');
     }
+    public function getWork2(){
+      return view('menu.work2');
+    }
+    public function getWork3(){
+      return view('menu.work3');
+    }
     // public function getPages(){
     //   return view('practice.pages');
     // }
