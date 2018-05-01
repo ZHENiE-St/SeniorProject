@@ -29,7 +29,7 @@ Route::get('/', function () {
 });
 //Example
 
-
+//test
 
 Route::post('/store',function(){
   //
