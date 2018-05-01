@@ -17,8 +17,8 @@
     <a href= "work">ข้อมูลงานซ่อม
     </a>
   </li>
-  <li class="active"><a href= "work2">ข้อมูลงานซ่อม</a></li>
-  <li ><a href= "work3">ข้อมูลงานซ่อม</a></li>
+  <li ><a href= "work2">ข้อมูลงานซ่อม2</a></li>
+  <li class="active"><a href= "work3">ค่าแรง</a></li>
   <li>
     <a href= "">Photos
     </a>
