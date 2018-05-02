@@ -29,7 +29,7 @@ Route::get('homepage','PagesController@getHomepage');
 Route::get('index','PagesController@getIndex');
 //homepage
 Route::get('/', function () {
-    return view('menu.homepage');
+    return view('welcome');
 });
 //Example
 

@@ -33,13 +33,13 @@ class PagesController extends Controller
       return view('statework.work4');
     }
     public function getWork5(){
-      return view('statwork.work5');
+      return view('statework.work5');
     }
     public function getWork6(){
-      return view('statwork.work6');
+      return view('statework.work6');
     }
     public function getTotal(){
-      return view('statwork.total');
+      return view('statework.total');
     }
     // public function getPages(){
     //   return view('practice.pages');
