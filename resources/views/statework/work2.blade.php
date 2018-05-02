@@ -85,20 +85,8 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                       <span id="Label1" class="g1" style="color:#F9FBEE;">:: รายละเอียดรถยนต์
                       </span>&nbsp;
                     </td>
-                    <td bgcolor="#2277d4">
-                      <span class="headDtg" style="display:inline-block;color:#F9FBEE;background-color:#2277D4;border-color:#2277D4;border-style:None;font-weight:bold;">
-                        <input id="Cbheavy" type="checkbox" name="Cbheavy">
-                        <label for="Cbheavy">รถเสียหายหนัก
-                        </label>
-                      </span>
-                      <span class="headDtg" style="display:inline-block;color:#F9FBEE;background-color:#2277D4;border-color:#2277D4;border-style:None;font-weight:bold;">
-                        <input id="cbFlood" type="checkbox" name="cbFlood">
-                        <label for="cbFlood">รถน้ำท่วม
-                        </label>
-                      </span>
-                    </td>
-                    <td bgcolor="#2277d4" align="left">
-                    </td>
+
+
                   </tr>
                 </tbody>
               </table>

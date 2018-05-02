@@ -55,8 +55,8 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td class="tdC2">
-                  <input name="txtRepairename" type="text" value="ตึ๋ง เซอร์วิส" readonly="readonly" id="txtRepairename" disabled="disabled" class="itemDtg" style="border-style:None;">
-                  <input name="txtRepaireBRname" type="text" value="สำนักงานใหญ่" readonly="readonly" id="txtRepaireBRname" disabled="disabled" class="itemDtg" style="border-style:None;">
+                  <input name="txtRepairename" type="text" value="ตึ๋ง เซอร์วิส" readonly="readonly" id="txtRepairename"  class="itemDtg" style="border-style:None;">
+                  <input name="txtRepaireBRname" type="text" value="สำนักงานใหญ่" readonly="readonly" id="txtRepaireBRname"  class="itemDtg" style="border-style:None;">
                 </td>
                 <td class="tdC3">
                   <span id="lbInsurername" class="lbText">บริษัทประกัน
@@ -103,7 +103,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtCarRegNo" type="text" id="txtCarRegNo" disabled="disabled" class="txtLB">
+                  <input name="txtCarRegNo" type="text" id="txtCarRegNo"  class="txtLB">
                   <span id="Regex_txtCarRegNo" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtCarRegNo" class="txtRegex" style="color:Red;display:none;">
@@ -118,7 +118,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <select name="ddlCarRegProvince" id="ddlCarRegProvince" disabled="disabled">
+                  <select name="ddlCarRegProvince" id="ddlCarRegProvince" >
                     <option selected="selected" value="0">- จังหวัด -
                     </option>
                     <option value="1">กระบี่
@@ -294,7 +294,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <select name="ddlCMFG" id="ddlCMFG" disabled="disabled">
+                  <select name="ddlCMFG" id="ddlCMFG" >
                     <option selected="selected" value="0">- ยี่ห้อ -
                     </option>
                     <option value="ALFA">ALFA
@@ -608,7 +608,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtCModel" type="text" id="txtCModel" disabled="disabled" class="txtLB">
+                  <input name="txtCModel" type="text" id="txtCModel"  class="txtLB">
                   <span id="Regex_txtCModel" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtCModel" class="txtRegex" style="color:Red;display:none;">
@@ -621,7 +621,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <input name="txtAccPolicyNo" type="text" id="txtAccPolicyNo" disabled="disabled" class="txtLB">
+                  <input name="txtAccPolicyNo" type="text" id="txtAccPolicyNo"  class="txtLB">
                   <span id="Regex_txtAccPolicyNo" class="txtRegex" style="color:Red;display:none;">
                   </span>
                 </td>
@@ -636,7 +636,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <input name="txtRefClaimNo" type="text" id="txtRefClaimNo" disabled="disabled" class="txtLB">
+                  <input name="txtRefClaimNo" type="text" id="txtRefClaimNo"  class="txtLB">
                   <span id="Regex_txtRefClaimNo" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtRefClaimNo" class="txtRegex" style="color:Red;display:none;">
@@ -647,7 +647,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <input name="txtAccClaimNo" type="text" id="txtAccClaimNo" disabled="disabled" class="txtLB">
+                  <input name="txtAccClaimNo" type="text" id="txtAccClaimNo"  class="txtLB">
                   <span id="Regex_txtAccClaimNo" class="txtRegex" style="color:Red;display:none;">
                   </span>
                 </td>
@@ -662,19 +662,19 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td colspan="3">
-                  <table id="rbStatusCar" disabled="disabled" class="txtLB" border="0" style="width:435px;">
+                  <table id="rbStatusCar"  class="txtLB" border="0" style="width:435px;">
                     <tbody>
                       <tr>
                         <td>
                           <span disabled="disabled">
-                            <input id="rbStatusCar_0" type="radio" name="rbStatusCar" value="2" disabled="disabled" onclick="javascript:setTimeout('__doPostBack(\'rbStatusCar$0\',\'\')', 0)">
+                            <input id="rbStatusCar_0" type="radio" name="rbStatusCar" value="2"  onclick="javascript:setTimeout('__doPostBack(\'rbStatusCar$0\',\'\')', 0)">
                             <label for="rbStatusCar_0">จอดซ่อม
                             </label>
                           </span>
                         </td>
                         <td>
                           <span disabled="disabled">
-                            <input id="rbStatusCar_1" type="radio" name="rbStatusCar" value="1" disabled="disabled" onclick="javascript:setTimeout('__doPostBack(\'rbStatusCar$1\',\'\')', 0)">
+                            <input id="rbStatusCar_1" type="radio" name="rbStatusCar" value="1"  onclick="javascript:setTimeout('__doPostBack(\'rbStatusCar$1\',\'\')', 0)">
                             <label for="rbStatusCar_1">ไม่จอดซ่อม
                             </label>
                           </span>
@@ -707,7 +707,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td class="tdC2">
-                  <input name="txtRepContactDate" type="text" value="4/29/2018 10:39 AM" id="txtRepContactDate" disabled="disabled" class="txtLB">
+                  <input name="txtRepContactDate" type="text" value="4/29/2018 10:39 AM" id="txtRepContactDate"  class="txtLB">
                   <span id="lbContractDate" style="color:#F3F3F4;">
                   </span>
                 </td>
@@ -729,7 +729,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientNameContact" type="text" id="txtClientNameContact" disabled="disabled" class="txtLB" style="width:180px;">
+                  <input name="txtClientNameContact" type="text" id="txtClientNameContact"  class="txtLB" style="width:180px;">
                   <span id="Regex_txtClientNameContact" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientNameContact" class="txtRegex" style="color:Red;display:none;">
@@ -750,7 +750,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientTelContact" type="text" id="txtClientTelContact" disabled="disabled" class="txtLB">
+                  <input name="txtClientTelContact" type="text" id="txtClientTelContact"  class="txtLB">
                   <span id="Regex_txtClientTelContact" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientTelContact" class="txtRegex" style="color:Red;display:none;">
@@ -765,7 +765,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientMobileContact" type="text" id="txtClientMobileContact" disabled="disabled" class="txtLB">
+                  <input name="txtClientMobileContact" type="text" id="txtClientMobileContact"  class="txtLB">
                   <span id="Regex_txtClientMobileContact" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientMobileContact" class="txtRegex" style="color:Red;display:none;">
@@ -778,7 +778,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <input name="txtRepContactname" type="text" value="ศศกรณ์ ศักดากรกุล" id="txtRepContactname" disabled="disabled" class="txtLB" style="width:180px;">
+                  <input name="txtRepContactname" type="text" value="ศศกรณ์ ศักดากรกุล" id="txtRepContactname"  class="txtLB" style="width:180px;">
                 </td>
                 <td>
                   <span id="lbRepHopeContact" class="lbText">วันที่นัดรถเข้าซ่อมล่วงหน้า
@@ -814,7 +814,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td colspan="3">
-                  <input name="txtCarRepairDate" type="text" id="txtCarRepairDate" disabled="disabled" class="txtRegex">
+                  <input name="txtCarRepairDate" type="text" id="txtCarRepairDate"  class="txtRegex">
                   <span id="lbCar2RepDate" style="color:#F3F3F4;">
                   </span>
                 </td>
@@ -846,7 +846,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td class="tdC2">
-                  <input name="txtClientNameCarRepair" type="text" id="txtClientNameCarRepair" disabled="disabled" class="txtLB" style="width:180px;">
+                  <input name="txtClientNameCarRepair" type="text" id="txtClientNameCarRepair"  class="txtLB" style="width:180px;">
                   <span id="Regex_txtClientNameCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientNameCarRepair" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -861,7 +861,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td class="tdC4">
-                  <input name="txtClientIDCardCarRepair" type="text" id="txtClientIDCardCarRepair" disabled="disabled" class="txtLB">
+                  <input name="txtClientIDCardCarRepair" type="text" id="txtClientIDCardCarRepair"  class="txtLB">
                   <span id="Regex_txtClientIDCardCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientIDCardCarRepair" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -878,7 +878,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientTelCarRepair" type="text" id="txtClientTelCarRepair" disabled="disabled" class="txtLB">
+                  <input name="txtClientTelCarRepair" type="text" id="txtClientTelCarRepair"  class="txtLB">
                   <span id="Regex_txtClientTelCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientTelCarRepair" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -893,7 +893,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientMobileCarRepair" type="text" id="txtClientMobileCarRepair" disabled="disabled" class="txtLB">
+                  <input name="txtClientMobileCarRepair" type="text" id="txtClientMobileCarRepair"  class="txtLB">
                   <span id="Regex_txtClientMobileCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientMobileCarRepair" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -910,7 +910,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td colspan="3">
-                  <textarea name="txtClientAddressCarRepair" rows="2" cols="20" id="txtClientAddressCarRepair" disabled="disabled" style="height:60px;width:250px;">
+                  <textarea name="txtClientAddressCarRepair" rows="2" cols="20" id="txtClientAddressCarRepair"  style="height:60px;width:250px;">
                   </textarea>
                   <span id="Regex_txtClientAddressCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
@@ -928,7 +928,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtKMCarRepair" type="text" id="txtKMCarRepair" disabled="disabled" class="txtLB">
+                  <input name="txtKMCarRepair" type="text" id="txtKMCarRepair"  class="txtLB">
                   <span id="Regex_txtKMCarRepair" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtKMCarRepair" class="txtRegex" style="color:Red;display:none;">
@@ -943,40 +943,40 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <table id="rbOil" disabled="disabled" class="lbText" border="0">
+                  <table id="rbOil"  class="lbText" border="0">
                     <tbody>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbOil_0" type="radio" name="rbOil" value="0" disabled="disabled">
+                          <span >
+                            <input id="rbOil_0" type="radio" name="rbOil" value="0" >
                             <label for="rbOil_0">E
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbOil_1" type="radio" name="rbOil" value="1" disabled="disabled">
+                          <span >
+                            <input id="rbOil_1" type="radio" name="rbOil" value="1"
                             <label for="rbOil_1">1/4
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbOil_2" type="radio" name="rbOil" value="2" disabled="disabled">
+                          <span >
+                            <input id="rbOil_2" type="radio" name="rbOil" value="2" >
                             <label for="rbOil_2">1/2
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbOil_3" type="radio" name="rbOil" value="3" disabled="disabled">
+                          <span >
+                            <input id="rbOil_3" type="radio" name="rbOil" value="3" >
                             <label for="rbOil_3">3/4
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbOil_4" type="radio" name="rbOil" value="4" disabled="disabled">
+                          <span >
+                            <input id="rbOil_4" type="radio" name="rbOil" value="4" >
                             <label for="rbOil_4">F
                             </label>
                           </span>
@@ -998,19 +998,19 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td colspan="3">
-                  <table id="cblItemCarRepair" disabled="disabled" class="lbText" border="0" style="width:250px;">
+                  <table id="cblItemCarRepair"  class="lbText" border="0" style="width:250px;">
                     <tbody>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="cblItemCarRepair_0" type="checkbox" name="cblItemCarRepair$0" disabled="disabled">
+                          <span >
+                            <input id="cblItemCarRepair_0" type="checkbox" name="cblItemCarRepair$0" >
                             <label for="cblItemCarRepair_0">แม่แรง
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="cblItemCarRepair_2" type="checkbox" name="cblItemCarRepair$2" disabled="disabled">
+                          <span >
+                            <input id="cblItemCarRepair_2" type="checkbox" name="cblItemCarRepair$2" >
                             <label for="cblItemCarRepair_2">ฝาครอบล้อ
                             </label>
                           </span>
@@ -1018,15 +1018,15 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                       </tr>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="cblItemCarRepair_1" type="checkbox" name="cblItemCarRepair$1" disabled="disabled">
+                          <span >
+                            <input id="cblItemCarRepair_1" type="checkbox" name="cblItemCarRepair$1" >
                             <label for="cblItemCarRepair_1">แผ่นรองปูพื้น
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="cblItemCarRepair_3" type="checkbox" name="cblItemCarRepair$3" disabled="disabled">
+                          <span >
+                            <input id="cblItemCarRepair_3" type="checkbox" name="cblItemCarRepair$3" >
                             <label for="cblItemCarRepair_3">ยางอะไหล่
                             </label>
                           </span>
@@ -1042,28 +1042,28 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 <td>
                 </td>
                 <td>
-                  <span class="lbText" disabled="disabled">
-                    <input id="cbRadio" type="checkbox" name="cbRadio" disabled="disabled">
+                  <span class="lbText" >
+                    <input id="cbRadio" type="checkbox" name="cbRadio" >
                     <label for="cbRadio">เครื่องเสียง
                     </label>
                   </span>
                 </td>
                 <td colspan="2">
-                  <input name="txtRadioDesc" type="text" id="txtRadioDesc" disabled="disabled" class="txtLB">
+                  <input name="txtRadioDesc" type="text" id="txtRadioDesc"  class="txtLB">
                 </td>
               </tr>
               <tr bgcolor="#e6e7e8">
                 <td>
                 </td>
                 <td>
-                  <span class="lbText" disabled="disabled">
-                    <input id="cbOther" type="checkbox" name="cbOther" disabled="disabled">
+                  <span class="lbText" >
+                    <input id="cbOther" type="checkbox" name="cbOther" >
                     <label for="cbOther">อื่นๆ(ระบุ)
                     </label>
                   </span>
                 </td>
                 <td colspan="2">
-                  <input name="txtOtherDesc" type="text" id="txtOtherDesc" disabled="disabled" class="txtLB">
+                  <input name="txtOtherDesc" type="text" id="txtOtherDesc"  class="txtLB">
                 </td>
               </tr>
               <tr bgcolor="#f3f3f4">
@@ -1074,7 +1074,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td colspan="3">
-                  <textarea name="txtLossOther" rows="2" cols="20" id="txtLossOther" disabled="disabled" style="height:60px;width:250px;">
+                  <textarea name="txtLossOther" rows="2" cols="20" id="txtLossOther"  style="height:60px;width:250px;">
                   </textarea>
                 </td>
               </tr>
@@ -1094,7 +1094,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <select name="ddlHopeFinishTime" id="ddlHopeFinishTime" disabled="disabled" style="width:80px;">
+                  <select name="ddlHopeFinishTime" id="ddlHopeFinishTime"  style="width:80px;">
                     <option selected="selected" value="0">-เวลา-
                     </option>
                     <option value="0:00">0:00
@@ -1239,7 +1239,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtEstimateLabor" type="text" id="txtEstimateLabor" disabled="disabled" class="txtLB">
+                  <input name="txtEstimateLabor" type="text" id="txtEstimateLabor"  class="txtLB">
                   <span id="Regex_txtEstimateLabor" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtEstimateLabor" class="txtRegex" style="color:Red;display:none;">
@@ -1254,7 +1254,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <select name="ddlTypeRepair" id="ddlTypeRepair" disabled="disabled" style="width:80px;">
+                  <select name="ddlTypeRepair" id="ddlTypeRepair"  style="width:80px;">
                     <option selected="selected" value="">-ประเภท-
                     </option>
                     <option value="Q1">Q1
@@ -1286,19 +1286,19 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td colspan="3">
-                  <table id="rbPart" disabled="disabled" class="lbText" border="0">
+                  <table id="rbPart"  class="lbText" border="0">
                     <tbody>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbPart_0" type="radio" name="rbPart" value="Y" disabled="disabled">
+                          <span >
+                            <input id="rbPart_0" type="radio" name="rbPart" value="Y" >
                             <label for="rbPart_0">มี
                             </label>
                           </span>
                         </td>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbPart_1" type="radio" name="rbPart" value="N" disabled="disabled">
+                          <span >
+                            <input id="rbPart_1" type="radio" name="rbPart" value="N" >
                             <label for="rbPart_1">ไม่มี
                             </label>
                           </span>
@@ -1366,7 +1366,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td colspan="3">
-                  <input name="txtClientGetcardate" type="text" id="txtClientGetcardate" disabled="disabled" class="txtRegex">
+                  <input name="txtClientGetcardate" type="text" id="txtClientGetcardate"  class="txtRegex">
                 </td>
               </tr>
               <tr bgcolor="#e6e7e8">
@@ -1379,7 +1379,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td class="tdC2">
-                  <input name="txtClientNameGetcar" type="text" id="txtClientNameGetcar" disabled="disabled" class="txtLB" style="width:180px;">
+                  <input name="txtClientNameGetcar" type="text" id="txtClientNameGetcar"  class="txtLB" style="width:180px;">
                   <span id="Regex_txtClientNameGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientNameGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1394,7 +1394,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td class="tdC4">
-                  <input name="txtClientIDCardGetcar" type="text" id="txtClientIDCardGetcar" disabled="disabled" class="txtLB">
+                  <input name="txtClientIDCardGetcar" type="text" id="txtClientIDCardGetcar"  class="txtLB">
                   <span id="Regex_txtClientIDCardGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientIDCardGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1411,7 +1411,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientTelGetcar" type="text" id="txtClientTelGetcar" disabled="disabled" class="txtLB">
+                  <input name="txtClientTelGetcar" type="text" id="txtClientTelGetcar"  class="txtLB">
                   <span id="Regex_txtClientTelGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientTelGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1426,7 +1426,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtClientMobileGetcar" type="text" id="txtClientMobileGetcar" disabled="disabled" class="txtLB">
+                  <input name="txtClientMobileGetcar" type="text" id="txtClientMobileGetcar"  class="txtLB">
                   <span id="Regex_txtClientMobileGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtClientMobileGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1443,7 +1443,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtKMGetcar" type="text" id="txtKMGetcar" disabled="disabled" class="txtLB">
+                  <input name="txtKMGetcar" type="text" id="txtKMGetcar"  class="txtLB">
                   <span id="Regex_txtKMGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtKMGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1454,7 +1454,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td>
-                  <input name="txtSMSGetcar" type="text" id="txtSMSGetcar" disabled="disabled" class="txtLB">
+                  <input name="txtSMSGetcar" type="text" id="txtSMSGetcar"  class="txtLB">
                   <span id="Regex_txtSMSGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtSMSGetcar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1471,7 +1471,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <input name="txtRelation" type="text" id="txtRelation" disabled="disabled" class="txtLB">
+                  <input name="txtRelation" type="text" id="txtRelation"  class="txtLB">
                   <span id="Regex_txtRelation" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtRelation" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1486,7 +1486,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td class="tdC2">
-                  <input name="txtRepNameGetCar" type="text" id="txtRepNameGetCar" disabled="disabled" class="txtLB" style="width:180px;">
+                  <input name="txtRepNameGetCar" type="text" id="txtRepNameGetCar"  class="txtLB" style="width:180px;">
                   <span id="Regex_txtRepNameGetCar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                   <span id="Rfv_txtRepNameGetCar" class="txtRegex" style="color:Red;visibility:hidden;">
@@ -1503,12 +1503,12 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <table id="rbCommentGetcar" disabled="disabled" class="lbText" border="0">
+                  <table id="rbCommentGetcar"  class="lbText" border="0">
                     <tbody>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbCommentGetcar_0" type="radio" name="rbCommentGetcar" value="0" disabled="disabled">
+                          <span >
+                            <input id="rbCommentGetcar_0" type="radio" name="rbCommentGetcar" value="0" >
                             <label for="rbCommentGetcar_0">สภาพรถเรียบร้อย
                             </label>
                           </span>
@@ -1516,8 +1516,8 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                       </tr>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbCommentGetcar_1" type="radio" name="rbCommentGetcar" value="1" disabled="disabled">
+                          <span >
+                            <input id="rbCommentGetcar_1" type="radio" name="rbCommentGetcar" value="1" >
                             <label for="rbCommentGetcar_1">รถซ่อมไม่เรียบร้อยพบปัญหา
                             </label>
                           </span>
@@ -1529,7 +1529,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </span>
                 </td>
                 <td colspan="2">
-                  <textarea name="txtCommentGetcar" rows="2" cols="20" id="txtCommentGetcar" disabled="disabled" style="height:60px;width:250px;">
+                  <textarea name="txtCommentGetcar" rows="2" cols="20" id="txtCommentGetcar"  style="height:60px;width:250px;">
                   </textarea>
                 </td>
               </tr>
@@ -1543,12 +1543,12 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </font>
                 </td>
                 <td>
-                  <table id="rbItemGetcar" disabled="disabled" class="lbText" border="0">
+                  <table id="rbItemGetcar"  class="lbText" border="0">
                     <tbody>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbItemGetcar_0" type="radio" name="rbItemGetcar" value="0" disabled="disabled">
+                          <span >
+                            <input id="rbItemGetcar_0" type="radio" name="rbItemGetcar" value="0" >
                             <label for="rbItemGetcar_0">ครบ
                             </label>
                           </span>
@@ -1556,8 +1556,8 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                       </tr>
                       <tr>
                         <td>
-                          <span disabled="disabled">
-                            <input id="rbItemGetcar_1" type="radio" name="rbItemGetcar" value="1" disabled="disabled">
+                          <span >
+                            <input id="rbItemGetcar_1" type="radio" name="rbItemGetcar" value="1" >
                             <label for="rbItemGetcar_1">ไม่ครบ
                             </label>
                           </span>

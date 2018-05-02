@@ -52,23 +52,23 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </a>
                 </td>
                 <td>
-                  <a id="wuMenuPage_lkbLabor_Cost" disabled="disabled" class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าแรง
+                  <a id="wuMenuPage_lkbLabor_Cost"  class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าแรง
                   </a>
                 </td>
                 <td>
-                  <a id="wuMenuPage_lkbPart_Cost" disabled="disabled" class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าอะไหล่
+                  <a id="wuMenuPage_lkbPart_Cost"  class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าอะไหล่
                   </a>
                 </td>
                 <td>
-                  <a id="wuMenuPage_lkbOther_Cost" disabled="disabled" class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าใช้จ่ายอื่น ๆ
+                  <a id="wuMenuPage_lkbOther_Cost"  class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">ค่าใช้จ่ายอื่น ๆ
                   </a>
                 </td>
                 <td>
-                  <a id="wuMenuPage_lkbImage" disabled="disabled" class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">รูปประกอบ
+                  <a id="wuMenuPage_lkbImage"  class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">รูปประกอบ
                   </a>
                 </td>
                 <td>
-                  <a id="wuMenuPage_lkbSummary" disabled="disabled" class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">สรุป
+                  <a id="wuMenuPage_lkbSummary"  class="menuPage_Select_Cont125" style="display:inline-block;height:25px;width:125px;">สรุป
                   </a>
                 </td>
               </tr>
@@ -94,9 +94,8 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                           <span id="Label1" class="g1" style="color:#F9FBEE;">:: รายละเอียดรถยนต์
                           </span>&nbsp;
                         </td>
-                      
-                        <td bgcolor="#2277d4" align="left">
-                        </td>
+
+                        
                       </tr>
                     </tbody>
                   </table>
@@ -948,7 +947,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </div>
                 </td>
                 <td class="stTd2T2">
-                  <input name="wuCalContractDate$txtCalendar" type="text" id="wuCalContractDate_txtCalendar" maxlength="10" readonly="readonly" value="01/05/2561" disabled="disabled" onblur="setCarlendarFormat('wuCalContractDate_txtCalendar');">&nbsp;
+                  <input name="wuCalContractDate$txtCalendar" type="text" id="wuCalContractDate_txtCalendar" maxlength="10" readonly="readonly" value="01/05/2561"  onblur="setCarlendarFormat('wuCalContractDate_txtCalendar');">&nbsp;
                   <span id="Rfv_wuCalContractDate" class="txtRegex" style="color:Red;display:none;">
                   </span>
                 </td>
@@ -961,7 +960,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </div>
                 </td>
                 <td class="stTd4">
-                  <input name="txtAcknowledgeName" type="text" value="ศศกรณ์ ศักดากรกุล" maxlength="100" id="txtAcknowledgeName" disabled="disabled" class="itemDtg" size="30">
+                  <input name="txtAcknowledgeName" type="text" value="ศศกรณ์ ศักดากรกุล" maxlength="100" id="txtAcknowledgeName"  class="itemDtg" size="30">
                 </td>
               </tr>
               <tr id="tg_r2" bgcolor="#f3f3f4">
@@ -974,7 +973,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </div>
                 </td>
                 <td>
-                  <input name="wuCalBringDate$txtCalendar" type="text" id="wuCalBringDate_txtCalendar" maxlength="10" readonly="readonly" value="01/05/2561" disabled="disabled" onblur="setCarlendarFormat('wuCalBringDate_txtCalendar');">&nbsp;
+                  <input name="wuCalBringDate$txtCalendar" type="text" id="wuCalBringDate_txtCalendar" maxlength="10" readonly="readonly" value="01/05/2561"  onblur="setCarlendarFormat('wuCalBringDate_txtCalendar');">&nbsp;
                   <span id="Rfv_wuCalBringDate" class="txtRegex" style="color:Red;display:none;">
                   </span>
                 </td>
@@ -988,7 +987,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 </td>
                 <td>
                   <font class="itemDtg">
-                    <input name="txtRepGetName" type="text" value="ศศกรณ์ ศักดากรกุล" maxlength="100" id="txtRepGetName" disabled="disabled" class="itemDtg">
+                    <input name="txtRepGetName" type="text" value="ศศกรณ์ ศักดากรกุล" maxlength="100" id="txtRepGetName"  class="itemDtg">
                     <span id="Regex_txtRepGetName" class="txtRegex" style="color:Red;display:none;">
                     </span>
                     <span id="Rfv_txtRepGetName" class="txtRegex" style="color:Red;display:none;">
@@ -1009,7 +1008,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 </td>
                 <td>
                   <font class="itemDtg">
-                    <input name="txtRepBringName" type="text" value="ๆไะๆไะ" maxlength="100" id="txtRepBringName" disabled="disabled" class="itemDtg" style="width:180px;">
+                    <input name="txtRepBringName" type="text" value="ๆไะๆไะ" maxlength="100" id="txtRepBringName"  class="itemDtg" style="width:180px;">
                     <span id="Regex_txtRepBringName" class="txtRegex" style="color:Red;display:none;">
                     </span>
                     <span id="Rfv_txtRepBringName" class="txtRegex" style="color:Red;display:none;">
@@ -1035,7 +1034,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 </td>
                 <td>
                   <font class="itemDtg">
-                    <input name="txtRepBringPhone" type="text" value="0832202897" maxlength="50" id="txtRepBringPhone" disabled="disabled" class="itemDtg" style="width:180px;">&nbsp;
+                    <input name="txtRepBringPhone" type="text" value="0832202897" maxlength="50" id="txtRepBringPhone"  class="itemDtg" style="width:180px;">&nbsp;
                     <span id="Regex_txtRepBringPhone" class="txtRegex" style="color:Red;display:none;">
                     </span>
                     <span id="Rfv_txtRepBringPhone" class="txtRegex" style="color:Red;display:none;">
@@ -1068,7 +1067,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 </td>
                 <td>
                   <font class="itemDtg">
-                    <input name="txtRepBringMobile" type="text" value="0832202897" maxlength="10" id="txtRepBringMobile" disabled="disabled" class="itemDtg" style="width:180px;">
+                    <input name="txtRepBringMobile" type="text" value="0832202897" maxlength="10" id="txtRepBringMobile"  class="itemDtg" style="width:180px;">
                     <span id="Regex_txtRepBringMobile" class="txtRegex" style="color:Red;display:none;">
                     </span>
                     <span id="Rfv_txtRepBringMobile" class="txtRegex" style="color:Red;display:none;">
@@ -1091,7 +1090,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                   </div>
                 </td>
                 <td>
-                  <input name="wuCalEstimateGetcar$txtCalendar" type="text" id="wuCalEstimateGetcar_txtCalendar" maxlength="10" readonly="readonly" value="02/05/2561" disabled="disabled" onblur="setCarlendarFormat('wuCalEstimateGetcar_txtCalendar');">&nbsp;
+                  <input name="wuCalEstimateGetcar$txtCalendar" type="text" id="wuCalEstimateGetcar_txtCalendar" maxlength="10" readonly="readonly" value="02/05/2561"  onblur="setCarlendarFormat('wuCalEstimateGetcar_txtCalendar');">&nbsp;
                   <span id="Rfv_wuCalEstimateGetcar" class="txtRegex" style="color:Red;display:none;">
                   </span>
                 </td>
@@ -1651,7 +1650,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 <td>
                   <b>
                     <font size="2">
-                      <input name="txtAssignName" type="text" maxlength="100" id="txtAssignName" disabled="disabled" class="itemDtg" size="30">
+                      <input name="txtAssignName" type="text" maxlength="100" id="txtAssignName"  class="itemDtg" size="30">
                       <font color="#999999">
                       </font>
                     </font>
@@ -1668,7 +1667,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 <td>
                   <b>
                     <font size="2">
-                      <input name="txtGetName" type="text" maxlength="100" id="txtGetName" disabled="disabled" class="itemDtg" style="width:205px;">
+                      <input name="txtGetName" type="text" maxlength="100" id="txtGetName"  class="itemDtg" style="width:205px;">
                       <font color="#999999">
                       </font>
                     </font>
@@ -1687,7 +1686,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 <td>
                   <b>
                     <font size="2">
-                      <input name="txtRelatedInsuree" type="text" maxlength="50" id="txtRelatedInsuree" disabled="disabled" class="itemDtg" size="30">
+                      <input name="txtRelatedInsuree" type="text" maxlength="50" id="txtRelatedInsuree"  class="itemDtg" size="30">
                       <font color="#999999">
                       </font>
                     </font>
@@ -1707,7 +1706,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 <td id="tdcar2">
                   <b>
                     <font class="itemDtg" color="#999999">
-                      <input name="txtRelatedInsureeIDCard" type="text" maxlength="13" id="txtRelatedInsureeIDCard" disabled="disabled" class="itemDtg">
+                      <input name="txtRelatedInsureeIDCard" type="text" maxlength="13" id="txtRelatedInsureeIDCard"  class="itemDtg">
                     </font>
                   </b>
                 </td>
@@ -1728,7 +1727,7 @@ background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
                 </td>
                 <td>
                   <font color="#999999">
-                    <input name="txtRelatedInsureePhone" type="text" maxlength="20" id="txtRelatedInsureePhone" disabled="disabled" class="itemDtg" length="20">
+                    <input name="txtRelatedInsureePhone" type="text" maxlength="20" id="txtRelatedInsureePhone"  class="itemDtg" length="20">
                   </font>
                 </td>
                 <td id="tdcarpic">
