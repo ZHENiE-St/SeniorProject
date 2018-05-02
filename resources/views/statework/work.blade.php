@@ -5,24 +5,15 @@
 <h4>Sombat .J Auto Center
 </h4>
 <ul class="nav nav-pills nav-stacked">
-  <li >
-    <a href= "homepage">Home
-    </a>
-  </li>
-  <li >
-    <a href="customers">ข้อมูลลูกค้า
-    </a>
-  </li>
-  <li class="active">
-    <a href= "work">ข้อมูลงานซ่อม
-    </a>
-  </li>
+  <li ><a href= "homepage">Home</a></li>
+  <li ><a href="customers">สร้างเคลม</a></li>
+  <li class="active"> <a href= "work">ข้อมูลทั่วไป</a></li>
   <li ><a href= "work2">ข้อมูลงานซ่อม</a></li>
   <li ><a href= "work3">ค่าแรง</a></li>
-  <li>
-    <a href= "">Photos
-    </a>
-  </li>
+  <li ><a href= "work4">ค่าอะไหล่</a></li>
+  <li ><a href= "work5">ค่าใช้จ่ายอื่นๆ</a></li>
+  <li ><a href= "work6">รูปภาพ</a></li>
+  <li><a href= "total">สรุป</a></li>
 </ul>
 <br>
 <div class="input-group">

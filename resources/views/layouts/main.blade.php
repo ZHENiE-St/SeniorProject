@@ -83,7 +83,7 @@
  <div class="container-fluid">
  <div class="row content">
 
- <div class="col-sm-3 sidenav">
+ <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 sidenav">
 
      @yield('activeUrl')
 
@@ -91,7 +91,7 @@
  </div>
 
  <br><br>
- <div class="col-sm-9 ">
+ <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
 @yield('content')
  <div class="navbar-header">
    <a class="navbar-brand" href="#">WebSiteName</a>

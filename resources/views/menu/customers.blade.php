@@ -5,25 +5,15 @@
 @section('activeUrl')
 <h4>Sombat .J Auto Center</h4>
 <ul class="nav nav-pills nav-stacked">
-<li >
-  <a href= "homepage">Home
-  </a>
-</li>
-<li class="active">
-  <a href="customers">ข้อมูลลูกค้า
-  </a>
-</li>
-<li >
-  <a href= "work">ข้อมูลงานซ่อม
-  </a>
-</li>
+<li ><a href= "homepage">Home</a></li>
+<li class="active"><a href="customers">สร้างเคลม</a></li>
+<li > <a href= "work">ข้อมูลทั่วไป</a></li>
 <li ><a href= "work2">ข้อมูลงานซ่อม</a></li>
 <li ><a href= "work3">ค่าแรง</a></li>
-
-<li>
-  <a href= "">Photos
-  </a>
-</li>
+<li ><a href= "work4">ค่าอะไหล่</a></li>
+<li ><a href= "work5">ค่าใช้จ่ายอื่นๆ</a></li>
+<li ><a href= "work6">รูปภาพ</a></li>
+<li><a href= "total">สรุป</a></li>
 </ul><br>
 <div class="input-group">
 <input type="text" class="form-control" placeholder="Search Blog..">
@@ -36,9 +26,6 @@ border-radius:5px; font-size:10pt; color:#000000;
 background:#FFB040 url(images/GeneralInfo/save_small.gif) no-repeat 27% 50%;">
 </div>
 @stop
-
-
-
 
 @section('content')
 <div class="form-header">

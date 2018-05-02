@@ -16,6 +16,10 @@ Route::get('customers','PagesController@getCustomer');
 Route::get('work','PagesController@getWork');
 Route::get('work2','PagesController@getWork2');
 Route::get('work3','PagesController@getWork3');
+Route::get('work4','PagesController@getWork4');
+Route::get('work5','PagesController@getWork5');
+Route::get('work6','PagesController@getWork6');
+Route::get('total','PagesController@getTotal');
 Route::get('homepage','PagesController@getHomepage');
 //test
 // Route::get('testPages','PagesController@getPasing');
